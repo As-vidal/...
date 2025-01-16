@@ -1,0 +1,125 @@
+/* styles.css */
+
+/* Reseteo de márgenes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sección de bienvenida */
+section#bienvenida {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+section#bienvenida h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section#bienvenida p {
+    font-size: 1.2em;
+}
+
+/* Galería de platos */
+section#platos {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+section#platos h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Descripción del plato */
+#descripcion-plato {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}

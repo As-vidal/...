@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastronomía Italiana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <div class="container">
+            <h1>Gastronomía Italiana</h1>
+            <nav>
+                <ul>
+                    <li><a href="#bienvenida">Bienvenida</a></li>
+                    <li><a href="#platos">Platos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de bienvenida -->
+    <section id="bienvenida">
+        <div class="container">
+            <h2>Bienvenidos a la Gastronomía Italiana</h2>
+            <p>La gastronomía italiana es una de las más famosas y apreciadas a nivel mundial, conocida por su pasta, pizzas, vinos y postres. Explora con nosotros los sabores que han conquistado paladares en todo el mundo.</p>
+        </div>
+    </section>
+
+    <!-- Galería de platos -->
+    <section id="platos">
+        <div class="container">
+            <h2>Platos Italianos Más Famosos</h2>
+            <div class="gallery">
+                <div class="card" onclick="mostrarDescripcion('Pasta')">
+                    <img src="img/pasta.jpg" alt="Pasta Italiana">
+                    <h3>Pasta</h3>
+                </div>
+                <div class="card" onclick="mostrarDescripcion('Pizza')">
+                    <img src="img/pizza.jpg" alt="Pizza Italiana">
+                    <h3>Pizza</h3>
+                </div>
+                <div class="card" onclick="mostrarDescripcion('Tiramisu')">
+                    <img src="img/tiramisu.jpg" alt="Tiramisu">
+                    <h3>Tiramisu</h3>
+                </div>
+            </div>
+            <p id="descripcion-plato"></p>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer id="contacto">
+        <div class="container">
+            <p>Contacto: <a href="mailto:info@gastronomiaitaliana.com">info@gastronomiaitaliana.com</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
